@@ -1,0 +1,11 @@
+{
+  "name": "sun-mihall",
+  "version": "1.0.0",
+  "description": "Website for Sun Mihall",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KobeDesignLab",
+  "license": "ISC"
+}
