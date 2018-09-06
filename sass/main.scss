@@ -1,8 +1,10 @@
 // UTILITIES
 @import 'utilities/variables';
+@import 'utilities/utilities';
 
 // BASE
 @import 'base/reset';
+@import 'base/typography';
 
 // LAYOUT
 @import 'layout/header';
