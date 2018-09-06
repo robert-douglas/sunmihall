@@ -4,9 +4,94 @@
 <head>
   <meta charset="utf-8">
   <title>Sun Mihall</title>
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/main.css">
+
 </head>
 
 <body>
+
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo">Logo</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a href="#">Link1</a>
+          </li>
+          <li>
+            <a href="#">Link2</a>
+          </li>
+          <li>
+            <a href="#">Link3</a>
+          </li>
+          <li>
+            <a href="#">Link4</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li>
+      <a href="#">Link1</a>
+    </li>
+    <li>
+      <a href="#">Link2</a>
+    </li>
+    <li>
+      <a href="#">Link3</a>
+    </li>
+    <li>
+      <a href="#">Link4</a>
+    </li>
+  </ul>
+
+
+
+
+  <header class="header">
+
+  </header>
+
+  <main class="main">
+    <section class="topicOfTheDay-section">
+      Topic Of The Day
+    </section>
+
+    <section class="campaign-section">
+      Campaign
+    </section>
+
+    <section class="voices-section">
+      Voices
+    </section>
+
+    <section class="contact-section">
+      Contact
+    </section>
+  </main>
+
+
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems, options);
+    });
+  </script>
 
 </body>
 

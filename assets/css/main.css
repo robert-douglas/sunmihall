@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%; }
+
+.header {
+  height: 80vh;
+  background-color: #22a7f0; }
+
+.topicOfTheDay-section {
+  height: 500px;
+  width: 100%;
+  background-color: #d24d57; }
+
+.campaign-section {
+  height: 500px;
+  width: 100%;
+  background-color: #22a7f0; }
+
+.voices-section {
+  height: 500px;
+  width: 100%;
+  background-color: #d24d57; }
+
+.contact-section {
+  height: 500px;
+  width: 100%;
+  background-color: #22a7f0; }
