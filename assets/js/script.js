@@ -1,126 +1,126 @@
 const topics = [{
     id: 1,
-    topic: "I am the topic of day 1."
+    topic: "There is no topic for today. Please check back again tomorrow!"
   },
   {
     id: 2,
-    topic: "I am the topic of day 2."
+    topic: "There is no topic for today. Please check back again tomorrow!"
   },
   {
     id: 3,
-    topic: "I am the topic of day 3."
+    topic: "Smelly foods"
   },
   {
     id: 4,
-    topic: "I am the topic of day 4."
+    topic: "Demonstrations against nuclear power plants"
   },
   {
     id: 5,
-    topic: "I am the topic of day 5."
+    topic: "The end of summer"
   },
   {
     id: 6,
-    topic: "I am the topic of day 6."
+    topic: "Pools VS Seas/Rivers"
   },
   {
     id: 7,
-    topic: "I am the topic of day 7."
+    topic: "Gymnastics"
   },
   {
     id: 8,
-    topic: "I am the topic of day 8."
+    topic: "There is no topic for today. Please check back again tomorrow!"
   },
   {
     id: 9,
-    topic: "I am the topic of day 9."
+    topic: "There is no topic for today. Please check back again tomorrow!"
   },
   {
     id: 10,
-    topic: "I am the topic of day 10."
+    topic: "Plastic supermarket bags"
   },
   {
     id: 11,
-    topic: "I am the topic of day 11."
+    topic: "House cleaning"
   },
   {
     id: 12,
-    topic: "I am the topic of day 12."
+    topic: "School home work"
   },
   {
     id: 13,
-    topic: "I am the topic of day 13."
+    topic: "What is beauty to you?"
   },
   {
     id: 14,
-    topic: "I am the topic of day 14."
+    topic: "Old vs. New: Dating customs"
   },
   {
     id: 15,
-    topic: "I am the topic of day 15."
+    topic: "There is no topic for today. Please check back again tomorrow!"
   },
   {
     id: 16,
-    topic: "I am the topic of day 16."
+    topic: "There is no topic for today. Please check back again tomorrow!"
   },
   {
     id: 17,
-    topic: "I am the topic of day 17."
+    topic: "There is no topic for today. Please check back again tomorrow!"
   },
   {
     id: 18,
-    topic: "I am the topic of day 18."
+    topic: "Do you buy anything on the Internet?"
   },
   {
     id: 19,
-    topic: "I am the topic of day 19."
+    topic: "Space Development"
   },
   {
     id: 20,
-    topic: "I am the topic of day 20."
+    topic: "Uniqueness of Japanese culture"
   },
   {
     id: 21,
-    topic: "I am the topic of day 21."
+    topic: "Japanese Athletes Overseas"
   },
   {
     id: 22,
-    topic: "I am the topic of day 22."
+    topic: "There is no topic for today. Please check back again tomorrow!"
   },
   {
     id: 23,
-    topic: "I am the topic of day 23."
+    topic: "There is no topic for today. Please check back again tomorrow!"
   },
   {
     id: 24,
-    topic: "I am the topic of day 24."
+    topic: "There is no topic for today. Please check back again tomorrow!"
   },
   {
     id: 25,
-    topic: "I am the topic of day 25."
+    topic: "How to Stop Bullying in School"
   },
   {
     id: 26,
-    topic: "I am the topic of day 26."
+    topic: "How do we measure the 'standard of living'?"
   },
   {
     id: 27,
-    topic: "I am the topic of day 27."
+    topic: "Would you like to have a sixth sense?"
   },
   {
     id: 28,
-    topic: "I am the topic of day 28."
+    topic: "Is adoption common in Japan?"
   },
   {
     id: 29,
-    topic: "I am the topic of day 29."
+    topic: "There is no topic for today. Please check back again tomorrow!"
   },
   {
     id: 30,
-    topic: "I am the topic of day 30."
+    topic: "There is no topic for today. Please check back again tomorrow!"
   },
   {
     id: 31,
-    topic: "I am the topic of day 31."
+    topic: "There is no topic for today. Please check back again tomorrow!"
   },
 ]
 

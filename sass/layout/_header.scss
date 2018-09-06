@@ -1,7 +1,10 @@
 .header {
   height: 80vh;
-  background-color: $color-blue-light;
   position: relative;
+  background-color: $color-gray-light;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('../img/header-bg.jpeg');
+  background-position: center;
+  background-size: cover;
 
   &__content {
     position: absolute;
@@ -9,5 +12,22 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+  }
+}
+
+.btn-cta {
+  &,
+  &:link,
+  &:visited {
+    background-color: $color-blue-dark;
+  }
+
+  &:hover {
+    background-color: $color-blue-light;
+  }
+
+  &:active,
+  &:focus {
+    background-color: $color-blue-dark;
   }
 }

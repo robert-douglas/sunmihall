@@ -1,23 +1,52 @@
+html {
+  color: #444;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
 }
 
 p, a {
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+}
+
+.paragraph {
+  &:not(:first-child) {
+    margin-top: 2rem;
+  }
 }
 
 .heading-primary {
-  color: $color-white;
 
   &--main {
+    background: linear-gradient( to right, #4183d7, #22a7f0);
+    -webkit-background-clip: text;
+    color: transparent;
     display: block;
     font-size: 8rem;
     letter-spacing: 5px;
+    line-height: 8rem;
   }
 
   &--sub {
+    color: #4183d7;
     display: block;
     font-size: 4rem;
     margin-top: 2rem;
   }
+}
+
+.heading-secondary {
+  font-size: 4rem;
+  text-transform: uppercase;
+  // font-weight: 300;
+  background: linear-gradient( to right, #4183d7, #22a7f0);
+  display: block;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.heading-tertiary {
+
 }

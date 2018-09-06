@@ -1,13 +1,17 @@
-// UTILITIES
-@import 'utilities/variables';
-@import 'utilities/utilities';
-
 // BASE
 @import 'base/reset';
 @import 'base/typography';
+
+// UTILITIES
+@import 'utilities/variables';
+@import 'utilities/utilities';
 
 // LAYOUT
 @import 'layout/header';
 
 // PAGES
 @import 'pages/home';
+
+//COMPONENTS
+@import 'components/navbar';
+@import 'components/form';

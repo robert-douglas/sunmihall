@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sun Mihall</title>
 
   <!-- Fonts -->
@@ -10,6 +11,9 @@
 
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+  <!-- Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="assets/css/main.css">
@@ -21,24 +25,26 @@
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper">
-        <a href="#!" class="brand-logo">Logo</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-          <i class="material-icons">menu</i>
-        </a>
-        <ul class="right hide-on-med-and-down">
-          <li>
-            <a href="#">Link1</a>
-          </li>
-          <li>
-            <a href="#">Link2</a>
-          </li>
-          <li>
-            <a href="#">Link3</a>
-          </li>
-          <li>
-            <a href="#">Link4</a>
-          </li>
-        </ul>
+        <div class="container">
+          <a href="#!" class="brand-logo">Logo</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="#">Link1</a>
+            </li>
+            <li>
+              <a href="#">Link2</a>
+            </li>
+            <li>
+              <a href="#">Link3</a>
+            </li>
+            <li>
+              <a href="#">Link4</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   </div>
@@ -68,36 +74,147 @@
         <span class="heading-primary--main">Sun Mihall</span>
         <span class="heading-primary--sub">Language Services</span>
       </h1>
-      <a href="#" class="waves-effect waves-light btn-large">CTA Button</a>
+      <a href="#" class="waves-effect waves-light btn-large btn-cta">CTA Button</a>
     </div>
 
   </header>
 
   <main class="main">
-    <section class="topicOfTheDay-section">
-      <div class="container">
-        <div class="row TOTD">
-          <div class="col s12 m6 TOTD__topic">
-            <div id="topic">
-              <h3 id="topicTitle">Topic of the Day</h3>
-              <p id="textBox"></p>
-            </div>
+    <section class="TOTD-section">
+      <!-- <div class="container"> -->
+      <div class="row">
+        <div class="col s12 m6 TOTD-section__topic">
+          <div id="topic">
+            <h2 class="heading-secondary">Topic of the Day</h2>
+            <p id="textBox"></p>
           </div>
-          <div class="col s12 m6 TOTD__img">IMAGE</div>
+        </div>
+        <div class="col s12 m6 TOTD-section__image">
+          <img class="TOTD-section__img" src="assets/img/img1.jpeg" alt="Topic Of The Day Img">
+        </div>
+      </div>
+      <!-- </div> -->
+    </section>
+
+    <section class="campaign-section">
+      <div class="row">
+        <div class="col s12 l8 campaign-section__content">
+          <h2 class="heading-secondary u-margin-bottom-large center-align">
+            Current Campaign!
+          </h2>
+          <p class="paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <p class="paragraph">
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+          </p>
+        </div>
+        <div class="col s12 l4 campaign-section__image">
+          <img class="campaign-section__img" src="assets/img/img2.jpeg" alt="Campaign Img">
         </div>
       </div>
     </section>
 
-    <section class="campaign-section">
-      Campaign
-    </section>
-
     <section class="voices-section">
-      Voices
+      <div class="container text-center">
+        <h2 class="heading-secondary center-align u-margin-bottom-large">
+          Student voices
+        </h2>
+        <div class="carousel carousel-slider center">
+          <div class="carousel-fixed-item center">
+            <a class="btn waves-effect red grey-text darken-text-2">button</a>
+          </div>
+          <div class="carousel-item blue" href="#one!">
+            <h2>First Panel</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid nihil asperiores
+              cumque totam eos dicta assumenda quis ipsum aspernatur, dolore, quidem quia exercitationem
+              reprehenderit dignissimos consectetur nisi atque aut!</p>
+          </div>
+          <div class="carousel-item red" href="#two!">
+            <h2>Second Panel</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quae voluptatem cum dicta
+              modi soluta quisquam aut repudiandae fuga, labore, ea optio dolore alias, unde quas perspiciatis
+              molestias? Dignissimos, eaque.</p>
+          </div>
+          <div class="carousel-item pink" href="#three!">
+            <h2>Third Panel</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus obcaecati est id, non
+              dolore, necessitatibus laboriosam odit asperiores quos voluptate commodi iusto sequi! Accusantium
+              molestias, laboriosam ab aperiam libero quae.</p>
+          </div>
+          <div class="carousel-item orange" href="#four!">
+            <h2>Fourth Panel</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi blanditiis doloremque autem
+              et neque porro odit quam veniam ut, dolor, nisi dolorem, non ab libero itaque rerum, numquam
+              repellendus nulla!</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="contact-section">
-      Contact
+      <div class="row">
+        <div class="col m12 l7 contact-section__map">
+          <img class="map-img" src="assets/img/map.png" alt="Location map">
+        </div>
+        <div class="col m12 l5 contact-section__contact">
+          <h2 class="heading-secondary center-align u-margin-bottom-large">
+            Get in touch with us
+          </h2>
+
+
+
+
+
+
+
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s12 m6 u-margin-bottom-small">
+                  <input id="first_name" type="text" class="validate">
+                  <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s12 m6 u-margin-bottom-small">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Last Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12 u-margin-bottom-small">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12 u-margin-bottom-small">
+                  <input id="number" type="text" class="validate">
+                  <label for="number">Phone Number</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12 u-margin-bottom-small">
+                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <label for="textarea1">Message</label>
+                </div>
+              </div>
+              <button class="btn waves-effect waves-light btn-submit" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+              </button>
+            </form>
+          </div>
+
+
+
+
+
+
+        </div>
+      </div>
     </section>
   </main>
 
@@ -111,9 +228,16 @@
   <script src="assets/js/script.js"></script>
 
   <script>
+    M.AutoInit();
+
     document.addEventListener('DOMContentLoaded', function() {
       var elems = document.querySelectorAll('.sidenav');
       var instances = M.Sidenav.init(elems, options);
+    });
+
+    var instance = M.Carousel.init({
+      fullWidth: true,
+      indicators: true
     });
   </script>
 

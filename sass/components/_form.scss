@@ -1,0 +1,26 @@
+form {
+
+  & .input-field input,
+  & .input-field label, {
+    color: $color-black;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  .btn-submit {
+    &,
+    &:link,
+    &:visited {
+      background-color: $color-blue-dark;
+    }
+
+    &:hover {
+      background-color: $color-blue-light;
+    }
+
+    &:active,
+    &:focus {
+      background-color: $color-blue-dark;
+    }
+  }
+}
