@@ -75,7 +75,17 @@
 
   <main class="main">
     <section class="topicOfTheDay-section">
-      Topic Of The Day
+      <div class="container">
+        <div class="row TOTD">
+          <div class="col s12 m6 TOTD__topic">
+            <div id="topic">
+              <h3 id="topicTitle">Topic of the Day</h3>
+              <p id="textBox"></p>
+            </div>
+          </div>
+          <div class="col s12 m6 TOTD__img">IMAGE</div>
+        </div>
+      </div>
     </section>
 
     <section class="campaign-section">
@@ -96,6 +106,9 @@
 
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+  <!-- Topic of the day -->
+  <script src="assets/js/script.js"></script>
 
   <script>
     document.addEventListener('DOMContentLoaded', function() {

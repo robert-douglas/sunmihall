@@ -51,10 +51,34 @@ p, a {
     transform: translate(-50%, -50%);
     text-align: center; }
 
-.topicOfTheDay-section {
-  height: 500px;
+#topic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  background-color: #d24d57; }
+  height: 100%; }
+
+#topicTitle {
+  font-size: 30px; }
+
+#textBox {
+  display: inline-block;
+  font-size: 26px;
+  padding: 10px; }
+
+.topicOfTheDay-section {
+  width: 100%;
+  background-color: #fff; }
+  .topicOfTheDay-section .TOTD__topic {
+    display: table;
+    text-align: center;
+    vertical-align: middle;
+    background-color: orange;
+    width: 100%; }
+  .topicOfTheDay-section .TOTD__img {
+    background-color: green;
+    width: 100%; }
 
 .campaign-section {
   height: 500px;

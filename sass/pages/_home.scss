@@ -1,7 +1,41 @@
-.topicOfTheDay-section {
-  height: 500px;
+#topic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  background-color: $color-red-light;
+  height: 100%;
+}
+
+#topicTitle {
+  font-size: 30px;
+}
+
+#textBox {
+  display: inline-block;
+  font-size: 26px;
+  padding: 10px;
+}
+
+.topicOfTheDay-section {
+  width: 100%;
+  background-color: $color-white;
+
+  & .TOTD {
+
+    &__topic {
+      display: table;
+      text-align: center;
+      vertical-align: middle;
+      background-color: orange;
+      width: 100%;
+    }
+
+    &__img {
+      background-color: green;
+      width: 100%;
+    }
+  }
 }
 
 .campaign-section {
