@@ -1,3 +1,15 @@
 nav {
-  background-color: $color-blue-light;
+  background-color: $color-white;
+
+  & ul a,
+  & ul a:link,
+  & ul a:visited,
+   {
+    color: $color-blue-dark;
+    font-size: 1.4rem;
+  }
+
+  & .brand-logo {
+    color: $color-blue-dark;
+  }
 }

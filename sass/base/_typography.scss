@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p, a {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.8rem;
+  // font-size: 1.8rem;
 }
 
 .paragraph {
@@ -18,11 +18,12 @@ p, a {
 }
 
 .heading-primary {
+  color: #fff;
 
   &--main {
-    background: linear-gradient( to right, #4183d7, #22a7f0);
-    -webkit-background-clip: text;
-    color: transparent;
+    // background: linear-gradient( to right, #4183d7, #22a7f0);
+    // -webkit-background-clip: text;
+    // color: transparent;
     display: block;
     font-size: 8rem;
     letter-spacing: 5px;
@@ -30,10 +31,11 @@ p, a {
   }
 
   &--sub {
-    color: #4183d7;
+    // color: #4183d7;
     display: block;
     font-size: 4rem;
     margin-top: 2rem;
+    letter-spacing: 5px;
   }
 }
 
