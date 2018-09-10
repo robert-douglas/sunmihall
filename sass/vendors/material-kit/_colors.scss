@@ -103,6 +103,8 @@ $blue: $blue-500 !default;
 $blue-light: #22a7f0 !default;
 $blue-dark: #4183d7 !default;
 
+$blue-gradient: linear-gradient(to right, $blue-light, $blue-dark);
+
 
 $light-blue-50: #e1f5fe !default;
 $light-blue-100: #b3e5fc !default;

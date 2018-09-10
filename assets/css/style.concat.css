@@ -3480,7 +3480,6 @@ h2.title {
         left: 0;
         top: 0;
         content: "";
-        background-color: rgba(0, 0, 0, 0.56);
         border-radius: 6px; }
       .rotating-card-container .card .back.back-background .card-content {
         position: relative;
