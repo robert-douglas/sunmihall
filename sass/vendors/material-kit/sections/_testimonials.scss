@@ -3,3 +3,17 @@
         margin-bottom: 50px;
     }
 }
+
+.section-blue {
+  background-color: $blue-dark !important;
+
+  & p,
+  & h1,
+  & h2,
+  & h3,
+  & h4,
+  & h5,
+  & h6 {
+    color: #fff !important;
+  }
+}

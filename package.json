@@ -4,9 +4,9 @@
   "description": "Website for Sun Mihall",
   "main": "index.js",
   "scripts": {
-    "watch:scss": "node-sass sass/main.scss assets/css/style.css -w",
+    "watch:scss": "node-sass sass/vendors/material-kit.scss assets/css/main.css -w",
     "devserver": "live-server",
-    "start": "npm-run-all --parallel devserver watch:scss",
+    "start": "npm-run-all --parallel devserver build:css watch:scss",
     "compile:material": "node-sass sass/vendors/material-kit.scss assets/css/material.comp.css",
     "compile:sass": "node-sass sass/main.scss assets/css/style.comp.css",
     "concat:css": "concat -o assets/css/style.concat.css assets/css/material.comp.css assets/css/style.comp.css",

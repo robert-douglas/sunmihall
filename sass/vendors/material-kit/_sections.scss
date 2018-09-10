@@ -38,6 +38,7 @@
 }
 .section{
     padding: 70px 0;
+    // padding: 50px 0;
 }
 .section-navbars{
     padding-bottom: 0;
@@ -51,7 +52,8 @@
 }
 .section-dark,
 .section-image{
-    background-color: #343434;
+    // background-color: #343434;
+    background-color: $blue-dark;
     background-size: 200% 240%;
     @include radial-gradient(#232323,#585858);
 }

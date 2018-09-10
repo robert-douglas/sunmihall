@@ -13,7 +13,8 @@ $red-A100: #ff8a80 !default;
 $red-A200: #ff5252 !default;
 $red-A400: #ff1744 !default;
 $red-A700: #d50000 !default;
-$red: $red-500 !default;
+// $red: $red-500 !default;
+$red: #d64541 !default;
 
 
 $pink-50: #fce4ec !default;
@@ -99,6 +100,8 @@ $blue-A200: #448aff !default;
 $blue-A400: #2979ff !default;
 $blue-A700: #2962ff !default;
 $blue: $blue-500 !default;
+$blue-light: #22a7f0 !default;
+$blue-dark: #4183d7 !default;
 
 
 $light-blue-50: #e1f5fe !default;
