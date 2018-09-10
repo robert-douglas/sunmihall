@@ -4,15 +4,15 @@
   "description": "Website for Sun Mihall",
   "main": "index.js",
   "scripts": {
-    "watch:scss": "node-sass sass/main.scss css/style.css -w",
+    "watch:scss": "node-sass sass/main.scss assets/css/style.css -w",
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch:scss",
-    "compile:materialize": "node-sass sass/vendors/materialize-src/sass/materialize.scss css/materialize.comp.css",
-    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
-    "concat:css": "concat -o css/style.concat.css css/materialize.comp.css css/style.comp.css",
-    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.concat.css -o css/style.prefix.css",
-    "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
-    "build:css": "npm-run-all compile:sass concat:css prefix:css compress:css"
+    "compile:material": "node-sass sass/vendors/material-kit.scss assets/css/material.comp.css",
+    "compile:sass": "node-sass sass/main.scss assets/css/style.comp.css",
+    "concat:css": "concat -o assets/css/style.concat.css assets/css/material.comp.css assets/css/style.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' assets/css/style.concat.css -o assets/css/style.prefix.css",
+    "compress:css": "node-sass assets/css/style.prefix.css assets/css/style.css --output-style compressed",
+    "build:css": "npm-run-all compile:material compile:sass concat:css prefix:css compress:css"
   },
   "author": "KobeDesignLab",
   "license": "ISC",
