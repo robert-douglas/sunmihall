@@ -7228,16 +7228,33 @@ select.selectpicker {
 .contactus-2 {
   height: auto; }
 
+.contactus-1 {
+  height: auto;
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 0; }
+
+.contactus-1 .info .info-title {
+  color: #4183d7; }
+
+.contactus-1 .info .icon {
+  color: #4183d7; }
+
 .custom-map {
   position: absolute;
   width: 100%;
-  height: 100%; }
+  height: 800px; }
+
+.contact-div {
+  z-index: 1000; }
 
 .contactus-2 .contact-div .card-contact {
-  margin-bottom: 50px !important; }
+  margin-bottom: 50px !important;
+  width: 100%;
+  margin-left: 0 !important; }
 
 @media (max-width: 991px) {
-  .custom-map iframe {
-    display: none; }
   .custom-map {
-    background-color: #ddd; } }
+    background-color: #ddd;
+    position: relative;
+    height: 500px; } }
