@@ -1,0 +1,19 @@
+.facebook-embed {
+  width: 100%;
+  // background-color: red;
+  // height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  // height: 200px;
+
+  @media (min-width: 991px) {
+    height: 400px;
+  }
+
+  & .facebook-iframe {
+
+  }
+}
