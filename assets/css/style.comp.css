@@ -34,3 +34,13 @@
     background-color: #ddd;
     position: relative;
     height: 500px; } }
+
+.facebook-embed {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  @media (min-width: 991px) {
+    .facebook-embed {
+      height: 400px; } }
