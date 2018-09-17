@@ -215,7 +215,8 @@
 
     .navbar.navbar-transparent .navbar-toggle{
         .icon-bar{
-            color: $white-color;
+            // color: $white-color;
+            color: #333;
         }
     }
 
@@ -273,7 +274,8 @@
 
             &:hover,
             &:focus{
-                color: $white-color;
+                // color: $white-color;
+                color: #333;
             }
         }
 

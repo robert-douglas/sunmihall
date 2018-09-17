@@ -1,15 +1,21 @@
-nav {
-  background-color: $color-white;
+// nav {
+//   background-color: $color-white;
+//
+//   & ul a,
+//   & ul a:link,
+//   & ul a:visited,
+//    {
+//     color: $color-blue-dark;
+//     font-size: 1.4rem;
+//   }
+//
+//   & .brand-logo {
+//     color: $color-blue-dark;
+//   }
+// }
 
-  & ul a,
-  & ul a:link,
-  & ul a:visited,
-   {
-    color: $color-blue-dark;
-    font-size: 1.4rem;
-  }
-
-  & .brand-logo {
-    color: $color-blue-dark;
-  }
-}
+// @media (max-width: 768px) {
+//   .navbar .navbar-collapse .dropdown .dropdown-menu li:hover {
+//     color: #333 !important;
+//   }
+// }

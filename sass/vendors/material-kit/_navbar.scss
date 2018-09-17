@@ -143,7 +143,8 @@
 
     @media (max-width: $grid-float-breakpoint-max) {
       .navbar-text {
-        color: inherit;
+        // color: inherit;
+        color: #333;
         margin-top: 15px;
         margin-bottom: 15px;
       }
@@ -152,7 +153,8 @@
       .open .dropdown-menu {
         > .dropdown-header {
           border: 0;
-          color: inherit;
+          // color: inherit;
+          color: #333;
         }
         .divider {
           border-bottom: 1px solid;

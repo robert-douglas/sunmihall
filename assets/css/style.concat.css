@@ -2259,12 +2259,12 @@ select.form-control {
     color: inherit; }
   @media (max-width: 767px) {
     .navbar .navbar-nav .navbar-text {
-      color: inherit;
+      color: #333;
       margin-top: 15px;
       margin-bottom: 15px; }
     .navbar .navbar-nav .open .dropdown-menu > .dropdown-header {
       border: 0;
-      color: inherit; }
+      color: #333; }
     .navbar .navbar-nav .open .dropdown-menu .divider {
       border-bottom: 1px solid;
       opacity: 0.08; } }
@@ -7154,7 +7154,7 @@ select.selectpicker {
       content: "";
       z-index: 1; }
   .navbar.navbar-transparent .navbar-toggle .icon-bar {
-    color: #FFFFFF; }
+    color: #333; }
   .navbar.navbar-default .navbar-toggle .icon-bar {
     color: inherit; }
   .navbar .navbar-collapse .caret {
@@ -7184,7 +7184,7 @@ select.selectpicker {
     margin: 0;
     padding-left: 46px; }
     .navbar .navbar-collapse .open .dropdown-menu > li > a:hover, .navbar .navbar-collapse .open .dropdown-menu > li > a:focus {
-      color: #FFFFFF; }
+      color: #333; }
   .navbar .navbar-collapse .dropdown-menu li {
     margin: 0 15px; }
   .navbar .navbar-collapse .dropdown.open .dropdown-menu {
