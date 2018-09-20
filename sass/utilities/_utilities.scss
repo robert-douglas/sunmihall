@@ -12,3 +12,21 @@
 .u-margin-bottom-small {
   margin-bottom: 2rem !important;
 }
+
+@media (max-width: 992px) {
+  .u-margin-top-small-tablet {
+    margin-top: 2rem !important;
+  }
+  .u-margin-bottom-small-tablet {
+    margin-bottom: 2rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .u-margin-top-small-mobile {
+    margin-top: 2rem !important;
+  }
+  .u-margin-bottom-small-mobile {
+    margin-bottom: 2rem !important;
+  }
+}

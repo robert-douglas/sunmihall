@@ -7222,6 +7222,30 @@ select.selectpicker {
   .main.main-raised .container {
     width: 920px; } }
 
+.u-margin-top-large {
+  margin-top: 5rem !important; }
+
+.u-margin-top-small {
+  margin-top: 2rem !important; }
+
+.u-margin-bottom-large {
+  margin-bottom: 5rem !important; }
+
+.u-margin-bottom-small {
+  margin-bottom: 2rem !important; }
+
+@media (max-width: 992px) {
+  .u-margin-top-small-tablet {
+    margin-top: 2rem !important; }
+  .u-margin-bottom-small-tablet {
+    margin-bottom: 2rem !important; } }
+
+@media (max-width: 768px) {
+  .u-margin-top-small-mobile {
+    margin-top: 2rem !important; }
+  .u-margin-bottom-small-mobile {
+    margin-bottom: 2rem !important; } }
+
 .main-raised {
   overflow: hidden; }
 
