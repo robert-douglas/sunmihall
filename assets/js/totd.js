@@ -126,12 +126,15 @@ const topics = [{
 
 
 const textBox = document.querySelector('#totd-textbox');
+const dateBox = document.querySelector('#totd-date');
 
 let date = new Date();
 let day = date.getDate();
+let month = date.getMonth();
 
 // console.log(day);
 // console.log(topics[day - 1].topic);
 
 
 textBox.innerHTML = `"${(topics[day - 1].topic)}"`;
+dateBox.innerHTML = `${month}月${day}日のフリーカンバセーションのテーマ`;
