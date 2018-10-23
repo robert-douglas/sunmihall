@@ -77,6 +77,10 @@ a{
     @include transition($slow-transition-time, $transition-linear);
 }
 
+.animation-transition-extra-slow{
+    @include transition($extra-slow-transition-time, $transition-linear);
+}
+
 .caret{
     @include transition-transform($fast-transition-time, $transition-ease);
 }
