@@ -2,6 +2,19 @@
 <html lang="ja_JP" dir="ltr">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-5349093-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-5349093-1');
+  </script>
+
   <meta charset="utf-8">
   <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="assets/img/favicon.png">
@@ -277,12 +290,19 @@
           <!-- <a href="https://www.youtube.com/watch?v=aSdQn2mFn1I" target="_blank" class="btn btn-danger btn-raised btn-lg">
             <i class="fa fa-play"></i> Watch video
           </a> -->
-          <a href="tel:###-###-###" class="call-now-btn-box u-margin-right-small">
-            <img src="assets/img/call-banner-blue.png" alt="" class="call-now-btn">
-          </a>
-          <a href="tel:###-###-###" class="call-now-btn-box">
-            <img src="assets/img/call-banner-blue.png" alt="" class="call-now-btn">
-          </a>
+
+          <div class="u-margin-right-small" style="display: inline-block">
+            <a href="tel:###-###-###" class="call-now-btn-box">
+              <img src="assets/img/call-banner-blue.png" alt="" class="call-now-btn">
+            </a>
+          </div>
+
+          <div class="u-margin-top-small" style="display: inline-block">
+            <a href="tel:###-###-###" class="call-now-btn-box">
+              <img src="assets/img/call-banner-blue.png" alt="" class="call-now-btn">
+            </a>
+          </div>
+
         </div>
       </div>
 
