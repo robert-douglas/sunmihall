@@ -129,6 +129,10 @@ select::-moz-focus-inner,
 input[type="file"] > input[type="button"]::-moz-focus-inner {
   outline: 0 !important; }
 
+.hr-dark-blue {
+  background: #4183d7;
+  height: .5px; }
+
 .form-horizontal .radio,
 .form-horizontal .checkbox,
 .form-horizontal .radio-inline,
@@ -2812,6 +2816,12 @@ h2.title {
 
 .text-gray {
   color: #999999; }
+
+.text-black {
+  color: #000000 !important; }
+
+.text-dark-gray {
+  color: #424242 !important; }
 
 .nav-tabs {
   background: #4183d7;
@@ -7244,6 +7254,9 @@ select.selectpicker {
 .u-margin-bottom-small {
   margin-bottom: 2rem !important; }
 
+.u-margin-right-small {
+  margin-right: 2rem !important; }
+
 @media (max-width: 992px) {
   .u-margin-top-small-tablet {
     margin-top: 2rem !important; }
@@ -7312,3 +7325,24 @@ select.selectpicker {
   @media (min-width: 991px) {
     .facebook-embed {
       height: 400px; } }
+
+#back-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  z-index: 100000;
+  background-color: rgba(65, 131, 215, 0.8);
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 5px; }
+
+.title-white {
+  color: white; }
+
+.btn-show {
+  display: block; }
+
+.btn-hide {
+  display: none; }

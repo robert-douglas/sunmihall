@@ -1,0 +1,24 @@
+#back-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  z-index: 100000;
+  background-color: rgba(65, 131, 215, .8);
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.title-white {
+  color: white;
+}
+
+.btn-show {
+  display: block;
+}
+
+.btn-hide {
+  display: none;
+}
