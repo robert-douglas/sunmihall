@@ -129,6 +129,10 @@ select::-moz-focus-inner,
 input[type="file"] > input[type="button"]::-moz-focus-inner {
   outline: 0 !important; }
 
+.hr-dark-blue {
+  background: #4183d7;
+  height: .5px; }
+
 .form-horizontal .radio,
 .form-horizontal .checkbox,
 .form-horizontal .radio-inline,
@@ -2812,6 +2816,12 @@ h2.title {
 
 .text-gray {
   color: #999999; }
+
+.text-black {
+  color: #000000 !important; }
+
+.text-dark-gray {
+  color: #424242 !important; }
 
 .nav-tabs {
   background: #4183d7;
