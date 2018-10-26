@@ -7269,6 +7269,9 @@ select.selectpicker {
   .u-margin-bottom-small-mobile {
     margin-bottom: 2rem !important; } }
 
+.u-remove-padding {
+  padding: 0; }
+
 .main-raised {
   overflow: hidden; }
 
