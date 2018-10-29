@@ -54,6 +54,27 @@ $headers .= "Reply-To: $email";
 
 mail($to,$email_subject,$email_body,$headers);
 
+
+// AUTORESPONDER
+
+/* Autoresponder subject */
+$respond_subject = "Sun Mihall - Thank you for contacting us!";
+
+/* Autoresponder message */
+$respond_message = "Hello!
+
+Thank you for contacting us! Your message has been recieved and we will get back to you
+as soon as possible!
+
+Yours sincerely,
+
+Sun Mihall
+www.sunmihall.com
+";
+
+/* Send the message using mail() function */
+mail($email, $respond_subject, $respond_message);
+
 //redirect to the 'thank you' page
 
 header('Location: index.html');

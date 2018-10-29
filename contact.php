@@ -79,8 +79,7 @@ www.sunmihall.com
 ";
 
 /* Send the message using mail() function */
-mail($to, $respond_subject, $respond_message);
-// mail($email, $respond_subject, $respond_message);
+mail($email, $respond_subject, $respond_message);
 
 //redirect to the 'thank you' page
 
