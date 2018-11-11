@@ -18,11 +18,11 @@ $name = $_POST['name'];
 
 $phone = $_POST['phone'];
 
-$phone = $_POST['time'];
+$time = $_POST['time'];
 
 $email = $_POST['email'];
 
-$email = $_POST['email-confirm'];
+$email_confirm = $_POST['email-confirm'];
 
 $message = $_POST['message'];
 
