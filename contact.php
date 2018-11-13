@@ -44,7 +44,7 @@ if( empty($errors))
 {
 
 // $to = $myemail;
-$to = "jlross90@gmail.com";
+$to = "study@sunmihall.com";
 
 $email_subject = "ウェブサイトよりお問い合わせが届きました";
 
