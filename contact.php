@@ -48,16 +48,18 @@ $to = "jlross90@gmail.com";
 
 $email_subject = "ウェブサイトよりお問い合わせが届きました";
 
-$email_body = "差出人: $name".
+$email_body = "差出人: $name \n".
 
-"メールアドレス: $email \n 電話番号: $phone \n".
+"メールアドレス: $email \n".
 
-"お問い合わせ内容: $message".
+"電話番号: $phone \n \n".
 
-"折り返しのお電話ご希望の時間帯: $time".
+"お問い合わせ内容: $message \n \n".
 
-"____________________________
-このメールは http://sunmihall.com/ のお問い合わせフォームから送信されました
+"折り返しのお電話ご希望の時間帯: $time \n \n".
+
+"____________________________ \n
+このメールは http://sunmihall.com/ のお問い合わせフォームから送信されました \n
 ";
 
 $headers = "From: $myemail\n";
