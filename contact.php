@@ -1,7 +1,7 @@
 <?php
 $errors = '';
 
-$myemail = 'jlross90@gmail.com';
+// $myemail = '';
 //<-----Put Your email address here.
 if(empty($_POST['name'])  ||
    empty($_POST['phone']) ||
@@ -48,19 +48,17 @@ $to = "jlross90@gmail.com";
 
 $email_subject = "ウェブサイトよりお問い合わせが届きました";
 
-$email_body = "差出人: $name
+$email_body = "差出人: $name".
 
-メールアドレス: $email
+"メールアドレス: $email \n 電話番号: $phone \n".
 
-電話番号: $phone
+"お問い合わせ内容: $message".
 
-お問い合わせ内容: $message
+"折り返しのお電話ご希望の時間帯: $time".
 
-折り返しのお電話ご希望の時間帯: $time
-
-____________________________
+"____________________________
 このメールは http://sunmihall.com/ のお問い合わせフォームから送信されました
-"
+";
 
 $headers = "From: $myemail\n";
 
@@ -121,5 +119,5 @@ mail($to,$email_subject,$email_body,$headers);
 
 //redirect to the 'thank you' page
 
-header('Location: index.html');
+header('Location: http://sunmihall.com');
 }
