@@ -1,0 +1,17 @@
+.schedule {
+  margin-left: auto;
+  margin-right: auto;
+
+  &__content {
+    font-size: 2rem;
+
+    & td {
+      padding: 5px 20px 5px 0;
+
+      &:first-child {
+        font-weight: bold;
+      }
+    }
+
+  }
+}
