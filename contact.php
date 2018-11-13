@@ -72,9 +72,9 @@ mail($to,$email_subject,$email_body,$headers);
 // AUTORESPONDER
 
 /* Autoresponder headers */
-// $headers = "From: $myemail\n";
+$headers = "From: Sun Mihall\n";
 //
-// $headers .= "Reply-To: $email";
+$headers .= "Reply-To: <noreply@sunmihall.com>";
 
 /* Autoresponder subject */
 $respond_subject = "【サンミハール】お問い合わせありがとうございます（自動返信メール）";
