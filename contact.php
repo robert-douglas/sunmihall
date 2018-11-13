@@ -62,7 +62,8 @@ $email_body = "差出人: $name \n".
 このメールは http://sunmihall.com/ のお問い合わせフォームから送信されました \n
 ";
 
-$headers = "From: $myemail\n";
+// $headers = "From: $myemail\n";
+$headers = "From: Contact Form\n";
 
 $headers .= "Reply-To: $email";
 
