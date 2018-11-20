@@ -20,6 +20,10 @@
   margin-right: 2rem !important;
 }
 
+.u-padding-top-small {
+  padding-top: 2rem !important;
+}
+
 @media (max-width: 992px) {
   .u-margin-top-small-tablet {
     margin-top: 2rem !important;
@@ -48,4 +52,11 @@
 
 .u-float-left {
   float: left !important;
+}
+
+@media (max-width: 375px) {
+  .u-mobile-header-padding {
+    padding-top: 100px !important;
+    padding-bottom: 120px !important;
+  }
 }
