@@ -73,8 +73,14 @@ mail($to,$email_subject,$email_body,$headers);
 // AUTORESPONDER
 
 /* Autoresponder headers */
-$headers = "From: Sun Mihall\n";
-//
+// $headers = "From: Sun Mihall\n";
+
+// ****--- MEMO ---****
+// Try the following "From:" code. If it doesn't work, revert to the commented code above.
+// ****--- END MEMO ---****
+
+$headers = "From: noreply@sunmihall.com\n";
+
 $headers .= "Reply-To: <noreply@sunmihall.com>";
 
 /* Autoresponder subject */
